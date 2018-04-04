@@ -10,23 +10,12 @@ namespace RoadTex.Controllers
     {
         public ActionResult Index()
         {
-            int x = 3;
-            //hi
+         
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
+      
 
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
+       
     }
 }
